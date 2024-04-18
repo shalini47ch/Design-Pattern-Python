@@ -64,3 +64,5 @@ connection_handler(postgres)
 
 #but in case of factory design pattern we dont creator the abstract class called as creator instead we create a class and use dictionary and then directly call the client code
 
+#The factory method design pattern supports dependency inversion which means the client depends on the abstract classes and not on the concrete implementations
+#more efficient for code reusablity and also helps a lot in code testing and mocking
