@@ -46,6 +46,7 @@ class MySQLFactoryMethod(AbstractFactoryMethod):
         return MySQLQuery()
 #similarly create for PostGreSQLFactory
 
+#Abstract factory helps us to group related factories together
 class PostGreSQLFactory(AbstractFactoryMethod):
     def create_connection(self):
         return PostGreSQL()
