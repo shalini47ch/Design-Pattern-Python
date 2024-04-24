@@ -1,5 +1,4 @@
 #Create separate abstract classes called as Connection and the cursor and then create a factory to use them
-
 from abc import ABC,abstractmethod
 
 class Connection(ABC):
