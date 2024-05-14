@@ -42,5 +42,11 @@ context.make_payment(200)
 context.payment_strategy=paypal
 context.make_payment(500)
 
+#1.use these strategy design pattern when you have a set of algorithms that you can select at the runtime
+#2.When you want to isolate the implementation details from the client code
+#3.When you want to avoid multiple if else and switch statements in that case also we can use strategy design pattern
+
+
+
 
 
