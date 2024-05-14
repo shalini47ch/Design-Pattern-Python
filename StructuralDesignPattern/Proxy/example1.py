@@ -31,3 +31,5 @@ subject=RealSubject()
 proxy=ProxySubject(subject)
 proxy.operation()
 
+#here the proxy subject acts as an intermediate in between the real subject and the client
+
