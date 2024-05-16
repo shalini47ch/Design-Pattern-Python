@@ -32,6 +32,15 @@ cacheproxy=CacheProxy(RealSubject())
 #when you run it for the first time it is caching the data and in the next time it is returning the data from the cache
 res=cacheproxy.request("key2")
 print(res)
+
+#cache proxy helps us to reduce memory usage and speed up the process and reduces the complexity of the code
+#It should promote lazy initalization so that we can improve the performance of the website
+
+#Disadvantages of proxy design pattern are that it reduces the performance of the website and will not be suitable for all test cases
+
+#If the proxy is the only way to access the object it will invoke the single point of failure
+#The proxy should be able to handle the errors in a way that it is transparent to the client
+
     
     
     
