@@ -70,6 +70,17 @@ if __name__=="__main__":
     store.add_product_tocart("Sneekers",80)
     store.checkout()
     
+#This design pattern simplifies a complex system by providing a simple interface
+#Improves maintainability but reducing the coupling between the systems by creating a facade
+#Loose coupling and abstraction
+#Increases reusability
+
+#Disadvantages
+#Limits flexibility because if we need to add more fuctionality to our system which are not present in facade so it would be an issue
+#The other disadvantage of facade design pattern is that it causes performance issues
+
+
+    
     
     
     
