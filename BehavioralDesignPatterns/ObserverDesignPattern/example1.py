@@ -53,6 +53,9 @@ weatherstation.subscribe(desktopapp)
 
 weatherstation.set_weather("Sunny")
 
+#now lets unsubscribe the desktop app from our observers
+
+
 
 
 
