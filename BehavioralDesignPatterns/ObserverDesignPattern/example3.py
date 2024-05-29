@@ -49,4 +49,7 @@ socialmedia.add_post("I just had a great weekend")
 socialmedia.detach(user1)
 print()
 socialmedia.add_post("exciting news!")
+
+#Observer pattern is used mainly in the situations where we need loose coupling between objects and flexible notification system
+
         
