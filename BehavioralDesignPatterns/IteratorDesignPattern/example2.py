@@ -14,6 +14,9 @@ class MyCollectionIterator:
             item=self.iterable[self.index]
             self.index+=1
             return item
+        else:
+            raise StopIteration
+    
 #this part has the aggregator logic
 class MyCollection:
     def __init__(self):
