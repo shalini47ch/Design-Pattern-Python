@@ -1,0 +1,10 @@
+1.It becomes very handy during the times where we need to perform the undo and redo functionality.It allows you to save the state of an object and retrieve it later when needed
+2.If you want to add various checkpoints and obtain screenshots of your application then memento design pattern is the best choice
+3.If you need to track the history of an application then also you can use the memento design pattern
+4.This memento design pattern can also be used in cases of collaborative editing 
+
+
+#Disadvantages
+1.Performance issues
+2.Increased memory usage
+3.Managing memento becomes complex as the no of mementos keeps increasing 
