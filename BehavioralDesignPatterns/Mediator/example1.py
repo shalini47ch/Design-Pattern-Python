@@ -14,6 +14,7 @@ class AirTrafficControlMediator:
     #similarly create a helper function to notify aircraft
     def notify_aircraft(self,sender,message):
         #iterate through the given list of aircrafts
+        print()
         for aircraft in self.aircrafts:
             if(aircraft!=sender):
                 aircraft.receive_message(message)
@@ -40,6 +41,7 @@ mediator.register_aircrafts(aircraft1)
 mediator.register_aircrafts(aircraft2)
 mediator.register_aircrafts(aircraft3)
 aircraft1.send_message("Traffic advisory:Descend to 10,000 feet")
+aircraft2.send_message("Rodger:Oh thats descending to 10,000 feet")
 
 
         
