@@ -29,6 +29,11 @@ class MySQLQueryExecution(DatabaseQueryExecutionTemplate):
     
     def run_query(self,query):
         print("Executing MYSQL query:",query)
+        return {
+            "customerid":12456,
+            "name":"Banky",
+            "discount":False
+        }
     
     def process_result(self,result):
         print("Processing mysql query result:",result)
@@ -38,6 +43,11 @@ class MySQLQueryExecution(DatabaseQueryExecutionTemplate):
 class PostGreQueryExecution(DatabaseQueryExecutionTemplate):
     def run_query(self,query):
         print("Executing PostGre query:",query)
+        return {
+            "productid":"PIO9",
+            "name":"laptop",
+            "total":200 
+        }
     
     def process_result(self,result):
         print("Processing postgre query result:",result)
